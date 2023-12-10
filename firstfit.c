@@ -14,7 +14,7 @@ void first_fit(int blocksize[], int file_size[], int process[], int blocks_no, i
 
 int main() {
     int value, blocks_no, file_no;
-    printf("\n\tRonit Satish Mehta 60009230207\n");
+   
     printf("\n\t--------FIRST FIT CALCULATOR ---------\n");
     printf("Enter the number of blocks:\n");
     scanf("%d", &blocks_no);
