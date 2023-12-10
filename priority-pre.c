@@ -4,7 +4,6 @@
 #define size 100
 
 void calculation(int burst_time[], int priority[], int process[], int n);
-
 int main() {
     int burst_time[size];
     int priority[size];
