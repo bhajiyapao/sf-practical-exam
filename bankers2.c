@@ -63,7 +63,7 @@ int main() {
     int processes, resources;
     int max[10][10], allocation[10][10], available[10];
     int safeSequence[10];
-    printf("\nRonit satish mehta 60009230207");
+
     printf("\nEnter the number of resources: ");
     scanf("%d", &resources);
 
