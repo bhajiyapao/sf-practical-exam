@@ -12,7 +12,6 @@ int page_fault;
 void fifo(int refernce_string[], int frame_size, int page_size);
 
 void main() {
-    printf("\t\tRonit Satish Mehta 60009230207 \n");
     printf("\t\t---------FIFO SIMULATOR---------\n");
     printf("\nEnter Frame Size: ");
     scanf("%d", &frame_size);
