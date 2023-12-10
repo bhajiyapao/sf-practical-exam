@@ -7,7 +7,6 @@ void main(){
     int priority[100];
     int n;
     int time_quantmn;
-    printf("Ronit Satish Mehta 60009230207\n");
     printf("enter the number of process:\n");
     scanf("%d",&n);
     printf("Enter the Time slice for each process:\n");
