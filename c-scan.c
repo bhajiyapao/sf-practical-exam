@@ -14,7 +14,6 @@ int temporary[size];
 void CSCAN(int cylinders[], int temporary[], int cylinder_size, int request, int seektime);
 
 void main() {
-    printf("\t-----RONITSATISHMEHTA 60009230207-------\n");
     printf("\t--------C-SCAN SIMULATION----------------\n");
     printf("\nEnter the size of disk:");
     scanf("%d", &cylinder_size);
