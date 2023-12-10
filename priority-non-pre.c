@@ -6,7 +6,6 @@ void main(){
     int arrival_time[100];
     int priority[100];
     int n;
-    printf("Ronit Satish Mehta 60009230207\n");
     printf("enter the number of process:\n");
     scanf("%d",&n);
     printf("enter the process id:");
