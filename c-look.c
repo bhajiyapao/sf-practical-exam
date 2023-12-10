@@ -14,7 +14,6 @@ int temporary[size];
 void CLOOK(int cylinders[], int temporary[], int cylinder_size, int request, int seektime);
 
 int main() {
-    printf("\t--------C-LOOK SIMULATION----------------\n");
     printf("\nEnter the size of disk:");
     scanf("%d", &cylinder_size);
 
