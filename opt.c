@@ -12,7 +12,6 @@ int page_fault;
 void opt(int refernce_string[], int frame_size, int page_size);
 
 void main() {
-    printf("\t\tRonit Satish Mehta 60009230207 \n");
     printf("\t\t---------OPT SIMULATOR---------\n");
     printf("\nEnter Frame Size: ");
     scanf("%d", &frame_size);
