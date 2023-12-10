@@ -16,7 +16,6 @@ void best_fit(int blocksize[], int file_size[], int process[], int blocks_no, in
 int main() {
     int blocks_no, file_no;
 
-    printf("\n\tRonit Satish Mehta 60009230207\n");
     printf("\n\t--------BEST FIT CALCULATOR ---------\n");
     printf("Enter the number of blocks:\n");
     scanf("%d", &blocks_no);
