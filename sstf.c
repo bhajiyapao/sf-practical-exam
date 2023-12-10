@@ -14,7 +14,7 @@ int temporary[size];
 void SSTF(int cylinders[], int temporary[], int cylinder_size, int request, int seektime);
 
 int main() {
-    printf("\t-----RONITSATISHMEHTA 60009230207-------\n");
+
     printf("\t--------SSTF SIMULATION----------------\n");
     printf("\nEnter the size of disk:");
     scanf("%d", &cylinder_size);
