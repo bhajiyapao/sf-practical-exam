@@ -2,13 +2,10 @@
 #include <pthread.h>
 #include <semaphore.h>
 #include <unistd.h>
-
 #define BUFFER_SIZE 5
-
 sem_t full, empty, mutex;
 int buffer[BUFFER_SIZE];
 int in = 0, out = 0;
-
 void *producer(void *arg) {
     while (1) {
         sem_wait(&empty);
