@@ -5,7 +5,6 @@ void main(){
     int burst_time[100];
     int arrival_time[100];
     int n;
-    printf("Ronit Satish Mehta SAP ID: 60009230207 \n");
     printf("enter the number of the process:");
     scanf("%d",&n);
     printf("enter the name of the process:\n");
